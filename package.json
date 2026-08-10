@@ -1,0 +1,12 @@
+{
+  "name": "metric-pusher-b767ad",
+  "version": "1.0.0",
+  "description": "A metric pusher utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["metric-pusher", "utility"],
+  "license": "MIT"
+}
